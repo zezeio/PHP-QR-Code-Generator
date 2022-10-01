@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "bilo";
+  src: url("https://use.typekit.net/bew4fqt.css") 
+}
+body{
+font-family: ff-dagny-web-pro, sans-serif;
+font-style: normal;
+color: #464646;
+}
+.first{
+  margin-left: 5vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.logo{
+  padding-bottom: 2px;
+}
+.main{
+  background: linear-gradient(288deg, rgba(9,121,80,1) 0%, rgba(0,255,226,1) 100%);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  vertical-align: center;
+}
+.second{
+  padding:0px;
+}
+.btngradient{
+background: linear-gradient(288deg, rgba(121,107,9,1) 0%, rgba(255,154,0,1) 100%);
+}
+.submitButton{
+  border-radius: 2rem!important;
+  font-size: 1.35rem;
+  width: 50%;
+  margin-top:-30px;
+  font-weight: 300!important;
+  background-color:#DFA868!important;
+  border:none;
+}
+.textInput{
+  border: none;
+  height: 75px;
+  width:80%;
+  border-radius: 1.5rem!important;
+}
+.jumbo-title{
+  font-size: 3.5rem;
+  font-weight: 700!important;
+}
+.main-heading{
+  margin-bottom: 60px;
+}
+@media only screen and (min-width: 600px){
+    
+    .first{
+      padding:15vh 0;
+
+    }
+    .submitButton{
+    border-radius: 2.5rem!important;
+    font-size: 1.35rem;
+    width: 50%;
+    height:7.5vh;
+    margin-top:-30px;
+   }
+    .side-img{
+      margin: 0px
+    }
+    .mainimg{
+	  border-radius:50%;
+    }
+
+}
